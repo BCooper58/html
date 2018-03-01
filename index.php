@@ -9,7 +9,7 @@
 <?php
 session_start();
 $_SESSION['pagename']="html index";
-include "db/pushhits.php";
+include "../db/pushhits.php";
 
 	error_reporting(0);
     if ($handle = opendir('.')) {
